@@ -1,0 +1,17 @@
+'''
+POST /fcm/send HTTP/1.1
+Host: fcm.googleapis.com
+Authorization: key=YOUR-SERVER-KEY
+Content-Type: application/json
+
+{
+  "notification": {
+    "title": "Portugal vs. Denmark",
+    "body": "5 to 1",
+    "icon": "firebase-icon.png",
+    "click_action": "http://localhost:8081"
+  },
+  "to": "YOUR-IID-TOKEN"
+}
+'''
+
